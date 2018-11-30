@@ -2,7 +2,7 @@
 layout: post
 title: "java 入门程序"
 date: 2018-11-30 08:55:06 
-description: "java 一个简单入门程序"
+description: "java 杨辉三角"
 tag: blog
 ---
 
