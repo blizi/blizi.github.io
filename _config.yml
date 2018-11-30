@@ -1,7 +1,7 @@
 # Basic
-title: 老王的个人博客
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 请叫我老侯
+subtitle: 老侯最帅谁不服
+description: 老侯天下第一帅~
 # 头像里面的标题
 avatarTitle: blizi
 # 头像里面的描述
@@ -18,7 +18,7 @@ social:
     weibo:  
     github: blizi
     # twitter: 
-    mail: blizi@gmail.com
+    mail: nutblizi@gmail.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
