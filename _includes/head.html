@@ -32,17 +32,18 @@
   </script>  
 
 <!-- 百度统计 -->
-  {% if site.baidu.id %}
+ <!-- {% if site.baidu.id %}-->
   <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?{{site.baidu.id}}";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-  </script>
-  {% endif %}
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f98939cd7658aa803ef216df8ee2e430";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  <!--{% endif %}-->
 
 <!-- google 统计 -->
   {% if site.ga.id %}
