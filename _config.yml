@@ -9,9 +9,7 @@ avatarDesc: java / 数据结构
 url: "https://blizi.github.io/"
 
 # Comment
-comment:
-    disqus: blizi
-    # uyan: 2143225  # 有言id,登录有言官网申请
+intensedebate_comments: true
 
 # Social
 social:

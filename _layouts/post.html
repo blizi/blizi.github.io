@@ -18,22 +18,10 @@ layout: default
     {{ content }}
 
   </section>
-  
-  <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'blizi',
-    repo: 'blizi.github.io',
-    oauth: {
-        client_id: '28a9855aee9e47111074',
-        client_secret: '0b2b551f523ea5781d7537c1f714316b1a7f2868',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
 </article>
 
 {% include new-old.html %}
 {% include comments.html %}
+{% if site.intensedebate_comments %}
+      {% include intensedebate-comments.html %}
+    {% endif %}
