@@ -18,6 +18,21 @@ layout: default
     {{ content }}
 
   </section>
+  
+  <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'blizi',
+    repo: 'blizi.github.io',
+    oauth: {
+        client_id: '28a9855aee9e47111074',
+        client_secret: 'd080d85818e9bd86db0046bfebfe3a0c0c91ee7c',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 </article>
 
 {% include new-old.html %}
