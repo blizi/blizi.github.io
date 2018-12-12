@@ -125,7 +125,6 @@ int main(){
 			scanf("%d",&arr[i][j]);
 			if(arr[i][j]<0){
 				arr[i][j]=0-arr[i][j];
-				c = 1;
 				if(arr[i][j]>max){
 					max = arr[i][j];
 					a = i;
@@ -435,4 +434,4 @@ public class Test {
 
 <br>
 
-转载请注明：[blizi的博客](www.blizi.club) » 
+转载请注明：[blizi的博客](blizi.club) » 
